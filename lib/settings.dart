@@ -27,7 +27,7 @@ class PaymentGateway {
 
 class AppSettings {
   /// Basic Settings
-  static const String applicationName = 'Bareeq';
+  static const String applicationName = 'بريق';
   static const String packageName = 'bareeq.sd.com';
   static const String shareAppText = "Share this App";
 
