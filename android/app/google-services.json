@@ -1,0 +1,214 @@
+{
+  "project_info": {
+    "project_number": "965495466380",
+    "project_id": "miningmarket-firebase",
+    "storage_bucket": "miningmarket-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965495466380:android:734f5bae1f8394d5f08ea9",
+        "android_client_info": {
+          "package_name": "bareeq.sd.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAd2Z-N9WusLMMt6gd1y8MG1z7LfUo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965495466380-u212iir0n0vc0fnimdrvvhue4s8tolpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.MiningMarket.MiningMarketMyApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965495466380:android:223ba0a6714b58edf08ea9",
+        "android_client_info": {
+          "package_name": "co.MiningMarket.MiningMarketMyApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965495466380-7alg0bh932ij7c0q3tqhau0nvpsq4hiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.MiningMarket.MiningMarketMyApp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAd2Z-N9WusLMMt6gd1y8MG1z7LfUo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965495466380-u212iir0n0vc0fnimdrvvhue4s8tolpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.MiningMarket.MiningMarketMyApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965495466380:android:0553d19784143401f08ea9",
+        "android_client_info": {
+          "package_name": "com.mycompany.miningmarketdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965495466380-4gaiurm345m0qa22k0ssierhvp64ki3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.miningmarketdashboard",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAd2Z-N9WusLMMt6gd1y8MG1z7LfUo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965495466380-u212iir0n0vc0fnimdrvvhue4s8tolpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.MiningMarket.MiningMarketMyApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965495466380:android:d7ecf5f0c79448aef08ea9",
+        "android_client_info": {
+          "package_name": "sd.bareed.flow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965495466380-bktnho3p17v1ssjmikqfarooibsin1pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sd.bareed.flow",
+            "certificate_hash": "9ceff80cd7da2976445caccd6c363c36236653b8"
+          }
+        },
+        {
+          "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAd2Z-N9WusLMMt6gd1y8MG1z7LfUo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965495466380-u212iir0n0vc0fnimdrvvhue4s8tolpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.MiningMarket.MiningMarketMyApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965495466380:android:8b4cb7d72f885bfef08ea9",
+        "android_client_info": {
+          "package_name": "sd.bareeq.ads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAd2Z-N9WusLMMt6gd1y8MG1z7LfUo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965495466380-u212iir0n0vc0fnimdrvvhue4s8tolpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.MiningMarket.MiningMarketMyApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+/Users/shreesoftech/Documents/work/flutter/custom_projects/eClassify/AlaaeldinMohamede_Classify/android/app/.cxx/RelWithDebInfo/671o6k95/x86/CMakeFiles/edit_cache.dir
+/Users/shreesoftech/Documents/work/flutter/custom_projects/eClassify/AlaaeldinMohamede_Classify/android/app/.cxx/RelWithDebInfo/671o6k95/x86/CMakeFiles/rebuild_cache.dir
