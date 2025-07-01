@@ -145,7 +145,7 @@ class HomeScreenState extends State<HomeScreen>
         appBar: AppBar(
           elevation: 0,
           //leadingWidth: double.maxFinite,
-          titleSpacing: 0,
+          titleSpacing: 10,
           title: Padding(
               padding: EdgeInsetsDirectional.only(end: sidePadding),
               child: appbarTitleWidget()),
@@ -156,7 +156,7 @@ class HomeScreenState extends State<HomeScreen>
         ),
         backgroundColor: mainColor,
         //backgroundColor: context.color.primaryColor,
-        drawer: Drawer(),
+        // drawer: Drawer(),
 
         body: Column(
           children: [
