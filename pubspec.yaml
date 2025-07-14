@@ -3,7 +3,7 @@ description: The Mining App
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev [Be careful]
 
-version: 2.5.0+28
+version: 2.5.1+29
 
 environment:
   sdk: ">=3.0.6 <4.0.0"
