@@ -43,32 +43,26 @@ class UserModel {
   UserModel.fromJson(Map<String, dynamic> json) {
     address = json['address'];
     createdAt = json['created_at'];
-    customerTotalPost = json['customertotalpost'] as int?;
+    customerTotalPost = _parseInt(json['customertotalpost']);
     email = json['email'];
     fcmId = json['fcm_id'];
     firebaseId = json['firebase_id'];
-    id = json['id'];
-    isActive = json['isActive'] as int?;
-    isProfileCompleted = json['isProfileCompleted'];
+    id = _parseInt(json['id']);
+    isActive = _parseInt(json['isActive']);
+    isProfileCompleted = json['isProfileCompleted'] is bool
+        ? json['isProfileCompleted']
+        : json['isProfileCompleted'] == 'true' || json['isProfileCompleted'] == 1;
     type = json['type'];
     mobile = json['mobile'];
     name = json['name'];
-
-    notification = (json['notification'] != null
-        ? (json['notification'] is int)
-            ? json['notification']
-            : int.parse(json['notification'])
-        : null);
+    notification = _parseInt(json['notification']);
     profile = json['profile'];
     token = json['token'];
     updatedAt = json['updated_at'];
-    isVerified = json['is_verified'];
-    isPersonalDetailShow = (json['show_personal_details'] != null
-        ? (json['show_personal_details'] is int)
-            ? json['show_personal_details']
-            : int.parse(json['show_personal_details'])
-        : null);
+    isVerified = _parseInt(json['is_verified']);
+    isPersonalDetailShow = _parseInt(json['show_personal_details']);
   }
+
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
@@ -97,6 +91,13 @@ class UserModel {
   String toString() {
     return 'UserModel(address: $address, createdAt: $createdAt, customertotalpost: $customerTotalPost, email: $email, fcmId: $fcmId, firebaseId: $firebaseId, id: $id, isActive: $isActive, isProfileCompleted: $isProfileCompleted, type: $type, mobile: $mobile, name: $name, profile: $profile, token: $token, updatedAt: $updatedAt,notification:$notification,isPersonalDetailShow:$isPersonalDetailShow,isVerified:$isVerified)';
   }
+
+  int? _parseInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    return null;
+  }
 }
 
 class BuyerModel {
@@ -119,4 +120,7 @@ class BuyerModel {
     data['profile'] = this.profile;
     return data;
   }
+
+
+
 }
