@@ -1,3 +1,4 @@
+
 import 'package:Bareeq/utils/api.dart';
 
 class Type {
@@ -18,6 +19,7 @@ class CategoryModel {
   final String? url;
   final List<CategoryModel>? children;
   final String? description;
+
   final int? subcategoriesCount;
 
   CategoryModel({
@@ -33,41 +35,34 @@ class CategoryModel {
     try {
       List<dynamic> childData = json['subcategories'] ?? [];
       List<CategoryModel> children =
-      childData.map((child) => CategoryModel.fromJson(child)).toList();
+          childData.map((child) => CategoryModel.fromJson(child)).toList();
 
       return CategoryModel(
-        id: _parseInt(json['id']),
-        name: json['translated_name'],
-        url: json['image'],
-        subcategoriesCount: _parseInt(json['subcategories_count']) ?? 0,
-        children: children,
-        description: json['description'] ?? "",
-      );
+          id: json['id'],
+          name: json['translated_name'],
+          url: json['image'],
+          subcategoriesCount: json['subcategories_count'] ?? 0,
+          children: children,
+          description: json['description'] ?? "");
     } catch (e) {
       rethrow;
     }
   }
 
   Map<String, dynamic> toJson() {
-    return {
+    final Map<String, dynamic> data = {
       'id': id,
       'translated_name': name,
       'image': url,
       'subcategories_count': subcategoriesCount,
-      'description': description,
-      'subcategories': children?.map((child) => child.toJson()).toList() ?? [],
+      "description": description,
+      'subcategories': children!.map((child) => child.toJson()).toList(),
     };
+    return data;
   }
 
   @override
   String toString() {
-    return 'CategoryModel( id: $id, translated_name:$name, url: $url, description:$description, children: $children, subcategories_count:$subcategoriesCount)';
+    return 'CategoryModel( id: $id, translated_name:$name, url: $url, descrtiption:$description, children: $children,subcategories_count:$subcategoriesCount)';
   }
-}
-
-int? _parseInt(dynamic value) {
-  if (value == null) return null;
-  if (value is int) return value;
-  if (value is String) return int.tryParse(value);
-  return null;
 }
